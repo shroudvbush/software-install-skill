@@ -5,7 +5,8 @@
   "author": {
     "name": "shroudvbush"
   },
+  "homepage": "https://github.com/shroudvbush/software-install-skill",
+  "repository": "https://github.com/shroudvbush/software-install-skill",
   "license": "MIT",
-  "keywords": ["software", "install", "deployment", "devops", "configuration"],
-  "skills": ["./"]
+  "keywords": ["software", "install", "deployment", "devops", "configuration", "troubleshooting"]
 }
