@@ -41,13 +41,9 @@ Nine-phase workflow with built-in safety guardrails:
 
 ## Install
 
-### Option A: OpenClaw / QClaw (Recommended)
+### Option A: Claude Code Plugin (Recommended)
 
-Clone or download to skills directory:
-
+From within Claude Code:
 ```bash
-# Linux/macOS
-git clone https://github.com/你的用户名/software-install.git ~/.qclaw/skills/software-install
-
-# Windows
-git clone https://github.com/你的用户名/software-install.git %USERPROFILE%\.qclaw\skills\software-install
+/plugin marketplace add 你的用户名/software-install
+/plugin install software-install
