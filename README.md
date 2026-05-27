@@ -57,14 +57,14 @@ AI 智能体安装软件时常犯的错误：
 新项目：
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md
 ```
 
 已有项目（追加）：
 
 ```bash
 echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md >> CLAUDE.md
+curl https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ### 方式 C：OpenClaw

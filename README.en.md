@@ -57,14 +57,14 @@ From within Claude Code:
 New project:
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md
 ```
 
 Existing project (append):
 
 ```bash
 echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md >> CLAUDE.md
+curl https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ### Option C: OpenClaw
