@@ -8,5 +8,6 @@
   "homepage": "https://github.com/shroudvbush/software-install-skill",
   "repository": "https://github.com/shroudvbush/software-install-skill",
   "license": "MIT",
-  "keywords": ["software", "install", "deployment", "devops", "configuration", "troubleshooting"]
+  "keywords": ["software", "install", "deployment", "devops", "configuration", "troubleshooting"],
+  "skills": ["./skills/software-install"]
 }
