@@ -119,6 +119,12 @@ Add project-specific rules to your existing setup:
 4. Push to the branch (`git push origin feature/amazing-improvement`)
 5. Open a Pull Request
 
+
+## Acknowledgments
+
+This project was inspired by the structure and presentation style of [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) by [forrestchang](https://github.com/forrestchang). The README format and plugin system design follow patterns established in that project.
+
+
 ## License
 
 MIT
