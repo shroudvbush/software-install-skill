@@ -1,0 +1,11 @@
+{
+  "name": "software-install-skill",
+  "description": "Universal workflow for installing, configuring, upgrading, and troubleshooting software on Windows, Linux, and macOS",
+  "version": "1.0.0",
+  "author": {
+    "name": "shroudvbush"
+  },
+  "license": "MIT",
+  "keywords": ["software", "install", "deployment", "devops", "configuration"],
+  "skills": ["./SKILL.md"]
+}
