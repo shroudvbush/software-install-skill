@@ -54,17 +54,13 @@ From within Claude Code:
 
 ### Option B: CLAUDE.md (Per-Project)
 
-New project:
+Add a reference in your project's `CLAUDE.md`:
 
-```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md
-```
+```markdown
+## Software Installation
 
-Existing project (append):
-
-```bash
-echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md >> CLAUDE.md
+When installing software, follow the safe installation workflow:
+https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md
 ```
 
 ### Option C: OpenClaw
