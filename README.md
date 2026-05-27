@@ -54,13 +54,17 @@ AI 智能体安装软件时常犯的错误：
 
 ### 方式 B：CLAUDE.md（按项目）
 
-在项目根目录的 `CLAUDE.md` 中引用本技能：
+新项目：
 
-```markdown
-## 软件安装
+```bash
+curl -o CLAUDE.md https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md
+```
 
-安装软件时遵循安全安装流程，详见：
-https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md
+已有项目（追加）：
+
+```bash
+echo "" >> CLAUDE.md
+curl https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ### 方式 C：OpenClaw
