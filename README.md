@@ -45,5 +45,5 @@ Nine-phase workflow with built-in safety guardrails:
 
 From within Claude Code:
 ```bash
-/plugin marketplace add 你的用户名/software-install
+/plugin marketplace add shroudvbush/software-install
 /plugin install software-install
