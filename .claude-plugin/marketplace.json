@@ -1,0 +1,18 @@
+{
+  "name": "software-install-marketplace",
+  "description": "A collection of useful Claude Code skills. Currently includes the software-install skill for safe, documented software installation workflows.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "shroudvbush"
+  },
+  "plugins": [
+    {
+      "name": "software-install-skill",
+      "description": "Universal workflow for installing, configuring, upgrading, and troubleshooting software on Windows, Linux, and macOS",
+      "source": "./plugins/software-install-skill",
+      "version": "1.0.0",
+      "category": "workflow",
+      "keywords": ["software", "install", "deployment", "devops", "configuration", "troubleshooting"]
+    }
+  ]
+}
