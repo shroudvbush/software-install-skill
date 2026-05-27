@@ -44,6 +44,81 @@ Nine-phase workflow with built-in safety guardrails:
 ### Option A: Claude Code Plugin (Recommended)
 
 From within Claude Code:
+
 ```bash
-/plugin marketplace add shroudvbush/software-install
-/plugin install software-install
+/plugin marketplace add shroudvbush/software-install-skill
+/plugin install software-install-skill
+```
+
+### Option B: CLAUDE.md (Per-Project)
+
+New project:
+
+```bash
+curl -o CLAUDE.md https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md
+```
+
+Existing project (append):
+
+```bash
+echo "" >> CLAUDE.md
+curl https://raw.githubusercontent.com/shroudvbush/software-install-skill/main/SKILL.md >> CLAUDE.md
+```
+
+### Option C: OpenClaw
+
+Clone to skills directory:
+
+```bash
+# Linux/macOS
+git clone https://github.com/shroudvbush/software-install-skill.git ~/.openclaw/skills/software-install
+
+# Windows
+git clone https://github.com/shroudvbush/software-install-skill.git %USERPROFILE%\.openclaw\skills\software-install
+```
+
+Or place `SKILL.md` directly in your OpenClaw skills directory.
+
+## How to Know It's Working
+
+This skill is working when you see:
+
+- **Official documentation checked first** — Not random blog posts
+- **Environment audited before changes** — OS, arch, existing installs verified
+- **Rollback plan presented** — Every install step has an undo
+- **No broad system upgrades** — `apt upgrade` only when explicitly approved
+- **Verification after install** — `command -v` and `--version` run automatically
+- **Cleanup on failure** — Failed installs leave no mess behind
+
+## Customization
+
+Add project-specific rules to your existing setup:
+
+```markdown
+## Project-Specific Installation Rules
+
+- Prefer user-level npm installs (`npm install --global` only when necessary)
+- Use nvm for Node.js version management
+- Python projects: use uv instead of pip when available
+```
+
+## Platform Support
+
+| Platform | Status | Notes |
+|----------|:------:|-------|
+| Windows (native) | ✅ | PowerShell, CMD, winget, choco, scoop |
+| Windows (WSL) | ✅ | Ubuntu, Debian, and other WSL distros |
+| Linux | ✅ | apt, dnf, pacman, snap, flatpak |
+| macOS | ✅ | brew, port, official installers |
+
+## Contributing
+
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/amazing-improvement`)
+3. Commit your changes (`git commit -m 'Add some amazing improvement'`)
+4. Push to the branch (`git push origin feature/amazing-improvement`)
+5. Open a Pull Request
+
+## License
+
+MIT
